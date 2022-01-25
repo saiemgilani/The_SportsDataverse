@@ -1,7 +1,7 @@
 ---
 title: "The SportsDataverse"
 author: "Saiem Gilani"
-date: "2021-11-17"
+date: "2022-01-24"
 opengraph:
   image: 
     src: "https://raw.githubusercontent.com/saiemgilani/The_SportsDataverse_Initiative/main/figures/sdv-blue.png"
@@ -201,7 +201,7 @@ We will be working with `cfbfastR` (on CRAN), `hoopR` (on CRAN), and `wehoop` (o
 if (!requireNamespace('pacman', quietly = TRUE)){
   install.packages('pacman')
 }
-pacman::p_load(cfbfastR, hoopR, wehoop)
+pacman::p_load(cfbfastR, hoopR, wehoop, fastRhockey, worldfootballR)
 ```
 
 #### Python
